@@ -1,69 +1,67 @@
-   .box {
-  padding: 1em;
-  border: 3px solid #296f52;
-  width: 300px;
-  box-shadow: 5px 5px 20px #296f52;
-  border-radius: 8px;
-  margin: 20px auto;
-  background-color: #ffffff;
-  font-size: 15px;
-  font-family: cursive, sans-serif;
-}
-
-h2 {
-  color: #224d3b;
-  font-family: 'Source Code Pro' , cursive;
-}
-
-img {
-  width: 300px;
-}
-
-img,
-.allfacts,
-.description {
-  box-shadow: 3px 3px 3px #296f52;
-  border: 1px solid #296f52;
-}
-
-img,
-.description {
-  border-radius: 4px;
-}
-
-.allfacts {
-  margin-top: 3px;
-  width: 300px;
-  background: #ddf7dc;
-}
-
-.fact {
-  font-style: italic;
-  text-align: center;
-}
-
-.item {
-  font-weight: bold;
-}
-
-.otherfacts {
-  position: relative;
-  right: 20px;
-  list-style: none;
-}
-
-.description {
-  margin-top: 6px;
-  padding: 0px 5px;
-  width: 290px;
-  background-color: #f0f2ef;
-  text-align: justify;
-}
-
 html {
-background: #649173;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #DBD5A4, #649173);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #649173;
+   /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #DBD5A4, #649173);
+   /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #DBD5A4, #649173);
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+.box {
+     padding: 1em;
+     border: 3px solid #296f52;
+     width: 300px;
+     box-shadow: 5px 5px 20px #296f52;
+     border-radius: 8px;
+     margin: 20px auto;
+     background-color: #ffffff;
+     font-size: 15px;
+     font-family: cursive, sans-serif;
+}
 
+ h2 {
+     color: #224d3b;
+     font-family: 'Source Code Pro' , cursive;
+}
+
+ img {
+     width: 300px;
+}
+
+ img, .allfacts, .description {
+     box-shadow: 3px 3px 3px #296f52;
+     border: 1px solid #296f52;
+}
+
+ img, .description {
+     border-radius: 4px;
+}
+
+ .allfacts {
+     margin-top: 3px;
+     width: 300px;
+     background: #ddf7dc;
+}
+
+ .fact {
+     font-style: italic;
+     text-align: center;
+}
+
+ .item {
+     font-weight: bold;
+}
+
+ .otherfacts {
+     position: relative;
+     right: 20px;
+     list-style: none;
+}
+
+ .description {
+     margin-top: 6px;
+     padding: 0 5px;
+     width: 290px;
+     background-color: #f0f2ef;
+     text-align: justify;
 }
